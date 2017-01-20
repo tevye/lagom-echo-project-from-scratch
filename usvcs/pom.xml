@@ -78,7 +78,7 @@
         <dependency>
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-javadsl-server_2.11</artifactId>
-            <version>1.2.1</version>
+            <version>${lagom.version}</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
@@ -88,38 +88,38 @@
         <dependency>
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-javadsl-api_2.11</artifactId>
-            <version>1.2.1</version>
+            <version>${lagom.version}</version>
         </dependency>
 		<dependency>
 		    <groupId>com.lightbend.lagom</groupId>
 		    <artifactId>lagom-javadsl-persistence_2.11</artifactId>
-		    <version>1.2.1</version>
+		    <version>${lagom.version}</version>
 		</dependency>
 		<dependency>
 		    <groupId>com.lightbend.lagom</groupId>
 		    <artifactId>lagom-javadsl-persistence-jdbc_2.11</artifactId>
-		    <version>1.2.1</version>
+		    <version>${lagom.version}</version>
 		</dependency>
         <dependency>
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-javadsl-persistence-cassandra_2.11</artifactId>
-            <version>1.2.1</version>
+            <version>${lagom.version}</version>
         </dependency>
         <dependency>
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-logback_2.11</artifactId>
-            <version>1.2.1</version>
+            <version>${lagom.version}</version>
         </dependency>
         <dependency>
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-javadsl-testkit_2.11</artifactId>
-            <version>1.2.1</version>
+            <version>${lagom.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-javadsl-integration-client_2.11</artifactId>
-            <version>1.2.1</version>
+            <version>${lagom.version}</version>
         </dependency>
   	</dependencies>
    </dependencyManagement>
