@@ -22,19 +22,6 @@
         <groupId>com.lightbend.lagom</groupId>
         <artifactId>lagom-javadsl-api_2.11</artifactId>
     </dependency>
-	<dependency>
-	    <groupId>com.lightbend.lagom</groupId>
-	    <artifactId>lagom-javadsl-persistence-jdbc_2.11</artifactId>
-	</dependency>
-    <dependency>
-        <groupId>com.lightbend.lagom</groupId>
-        <artifactId>lagom-javadsl-persistence-cassandra_2.11</artifactId>
-    </dependency>
-    <dependency>
-	  <groupId>com.catassetintel.usvc.common</groupId>
-	  <artifactId>mai-svc-common</artifactId>
-	  <version>0.0.2-SNAPSHOT</version>
-    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
